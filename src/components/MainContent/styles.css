@@ -1,0 +1,27 @@
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.image {
+  animation: slide-in 1000ms;
+  animation-timing-function: linear;
+}
+
+@keyframes slide-right-in {
+  from {
+    transform: translateX(+100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.summary {
+  animation: slide-right-in 1000ms;
+  animation-timing-function: linear;
+}
