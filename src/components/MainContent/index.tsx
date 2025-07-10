@@ -82,7 +82,10 @@ const MainContent: React.FC = () => (
                         </div>
                         <div className="col-span-2 w-full">
                             <div className="flex items-center justify-between gap-4 w-full">
-                                <h3 className="font-bold text-gray-900 dark:text-white">{exp.company}</h3>
+                                <h3 className="font-bold text-gray-900 dark:text-white">
+                                    <a href={
+exp.website} target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 dark:hover:text-pink-400 transition-colors duration-300" title={`Visit ${exp.company} website`
+                                    }>{exp.company}</a></h3>
                                 <p className="text-gray-600 dark:text-gray-400">{exp.location}</p>
                             </div>
                             <div className="flex items-center justify-between gap-4 mb-4 w-full">

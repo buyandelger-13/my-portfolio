@@ -32,6 +32,7 @@ const portfolioData = {
       role: "System Engineer",
       company: "E-Mongolia academy",
       duration: "May 2023 - Aug 2024",
+      website: "https://ema.gov.mn",
       location: "Ulaanbaatar, Mongolia",
       projectDetails: [
         "Integrated over 170 new SOAP APIs and enhanced more than 250 existing ones using Java, Spring Boot, Redis, and RabbitMQ. This resulted in a 30% increase in public service efficiency and the successful transition of over 200 government paper documents to digital formats.",
@@ -43,6 +44,7 @@ const portfolioData = {
       role: "Backend Developer",
       company: "Mongolian National Datacenter",
       duration: "Aug 2021 - May 2023",
+      website: "https://datacenter.gov.mn",
       location: "Ulaanbaatar, Mongolia",
       projectDetails: [
         "Integrated government kiosk application payments with domestic bank QR code systems (QPay, SocialPay, CandyPay),cutting cash transactions by 80% and boosting service efficiency.",
@@ -54,6 +56,7 @@ const portfolioData = {
       role: "Software Developer",
       company: "SmartLogic LLC",
       duration: "Jul 2018 - Aug 2021",
+      website: "https://smartlogic.mn/",
       location: "Ulaanbaatar, Mongolia",
       projectDetails: [
         "Developed the SmartHotel desktop application using C#, WinForms, DevExpress and MSSQL, establishing it as a core component of the organization's ERP system.",
