@@ -70,7 +70,7 @@ const portfolioData = {
     { title: "Certification of Honor", from: "Mongolian Ministry of Digital Development, Innovation, and Communication", year: "May 2024", url: "https://drive.google.com/file/d/1gRDoyhHiI7Zj18jtPYNfscOblXg8_lyq/view?usp=drive_link" },
   ],
   hobbies: ["Reading", "Hiking", "Traveling", "Coding"],
-  resumeUrl: "data:application/pdf;base64,JVBERi0xLjAKMSAwIG9iajw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAyIDAgUj4+ZW5kb2JqIDIgMCBvYmo8PC9UeXBlL1BhZ2VzL0tpZHNbMyAwIFJdL0NvdW50IDE+PmVuZG9iaiAzIDAgb2JqPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXT4+ZW5kb2JqCnhyZWYKMCA0CjAwMDAwMDAwMDAgNjU1MzUgZg0KMDAwMDAwMDAxMCAwMDAwMCBuDQowMDAwMDAwMDU5IDAwMDAwIG4NCjAwMDAwMDAxMTIgMDAwMDAgbg0KdHJhaWxlcjw8L1NpemUgNC9Sb290IDEgMCBSPj4Kc3RhcnR4cmVmCjE0OQolJUVPRg==",
+  resumeUrl: "https://drive.google.com/file/d/1TobFmv4B20E_UmRc8T4Ksrf7cLrEUgLK/view?usp=drive_link",
 };
 
 export default portfolioData;

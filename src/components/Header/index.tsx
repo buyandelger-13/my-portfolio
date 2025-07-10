@@ -31,7 +31,7 @@ const Header: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, t
           </nav>
   
           <div className="flex items-center gap-2 pushable">
-            <a href={portfolioData.resumeUrl} download="John_Smith_Resume.pdf" className="bg-pink-500 hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded-md transition-colors front">
+            <a href={portfolioData.resumeUrl} target="_blank" download="Buyandelger_Tsendsuren_Resume.pdf" className="bg-pink-500 hover:bg-pink-600 text-white text-sm font-semibold px-4 py-2 rounded-md transition-colors front">
               Resume
             </a>
             <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
