@@ -2,9 +2,9 @@ const portfolioData = {
   name: "Buyandelger Tsendsuren",
   title: "Software Engineer",
   profilePicture: "./profile.jpg",
-  summary: "Experienced Software Engineer with over 6 years of experience,including 4 years of developing desktop and kiosk applications using C#, .NET, and MSSQL. Additionally, I have 3 years of experience building secure, scalable applications using Java and Oracle, and experience managing private cloud servers using VMware. I am skilled in integrating complex systems, developing RESTful and SOAP APIs, and delivering user-focused solutions across web and desktop platforms. I have hands-on experience working with various technologies, such as Oracle and JavaScript. Skilled in driving efficiency, reducing operational workload, and leading digital transformation in Agile environments. Great team player, highly adaptable, and time management skills.",
+  summary: "Experienced Senior Software Engineer with over 6 years of experience,including 4 years of developing desktop and kiosk applications using C#, .NET, and MSSQL. Additionally, I have 3 years of experience building secure, scalable applications using Java and Oracle, and experience managing private cloud servers using VMware. I am skilled in integrating complex systems, developing RESTful and SOAP APIs, and delivering user-focused solutions across web and desktop platforms. I have hands-on experience working with various technologies, such as Oracle and JavaScript. Skilled in driving efficiency, reducing operational workload, and leading digital transformation in Agile environments. Great team player, highly adaptable, and time management skills.",
   contact: {
-    email: "buyandelgertsendsuren@gmail.com",
+    email: "buyan.tsendsuren@gmail.com",
     phone: "+1-641-233-9584",
     linkedin: "https://www.linkedin.com/in/tsbuyandelger",
     github: "https://www.github.com/buyakaa13",
@@ -17,7 +17,7 @@ const portfolioData = {
     {
       degree: "Master of Science in Computer Science",
       institution: "Maharishi International University",
-      graduationYear: "April 2027 (In progress via distance education)",
+      graduationYear: "April 2027",
       startYear: "August 2024",
     },
     {
@@ -29,7 +29,7 @@ const portfolioData = {
   ],
   experience: [
     {
-      role: "System Engineer",
+      role: "Senior Software Engineer",
       company: "E-Mongolia academy",
       duration: "May 2023 - Aug 2024",
       website: "https://ema.gov.mn",
@@ -70,7 +70,7 @@ const portfolioData = {
     { title: "Certification of Honor", from: "Mongolian Ministry of Digital Development, Innovation, and Communication", year: "May 2024", url: "https://drive.google.com/file/d/1gRDoyhHiI7Zj18jtPYNfscOblXg8_lyq/view?usp=drive_link" },
   ],
   hobbies: ["Reading", "Hiking", "Traveling", "Coding"],
-  resumeUrl: "https://drive.google.com/file/d/1TobFmv4B20E_UmRc8T4Ksrf7cLrEUgLK/view?usp=drive_link",
+  resumeUrl: "https://drive.google.com/file/d/15ngNeBCQjgjPXS8Iqlbtf_vaOE8PIyrP/view?usp=sharing",
 };
 
 export default portfolioData;
