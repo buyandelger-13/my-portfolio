@@ -1,6 +1,6 @@
 const portfolioData = {
   name: "Buyandelger Tsendsuren",
-  title: "Software Engineer",
+  title: "Senior Software Engineer",
   profilePicture: "./profile.jpg",
   summary: "Experienced Senior Software Engineer with over 6 years of experience,including 4 years of developing desktop and kiosk applications using C#, .NET, and MSSQL. Additionally, I have 3 years of experience building secure, scalable applications using Java and Oracle, and experience managing private cloud servers using VMware. I am skilled in integrating complex systems, developing RESTful and SOAP APIs, and delivering user-focused solutions across web and desktop platforms. I have hands-on experience working with various technologies, such as Oracle and JavaScript. Skilled in driving efficiency, reducing operational workload, and leading digital transformation in Agile environments. Great team player, highly adaptable, and time management skills.",
   contact: {
