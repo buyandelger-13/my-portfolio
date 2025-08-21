@@ -1,5 +1,4 @@
 import { MoonIcon, SunIcon } from "@phosphor-icons/react";
-
 const ThemeToggle: React.FC<{ theme: string; toggleTheme: () => void }> = ({ theme, toggleTheme }) => (
   <button
     onClick={toggleTheme}
