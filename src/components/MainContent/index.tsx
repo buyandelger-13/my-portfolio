@@ -4,6 +4,8 @@ import portfolioData from '../../data/mockData';
 import { LaptopIcon, GraduationCapIcon, BuildingIcon, TrophyIcon, UserIcon, PhoneIcon, CircleIcon, GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react";
 import { BuildingOfficeIcon, CalendarStarIcon, CertificateIcon, EnvelopeIcon, StudentIcon } from "@phosphor-icons/react/dist/ssr";
 import './styles.css';
+import Butterfly from '../ButterflyAnimation';
+// import Weather from '../Weather';
 
 const MainContent: React.FC = () => (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 md:py-8 relative z-10">
@@ -18,13 +20,20 @@ const MainContent: React.FC = () => (
                         onError={(e) => { e.currentTarget.src = 'https://placehold.co/128x128/E0E0E0/333333?text=JS' }}
                     />
                 </div>
-                <div className="text-center md:text-left summary">
+                <div className="text-center md:text-left">
                     <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-2">{portfolioData.name}</h1>
                     <h2 className="text-xl md:text-2xl font-semibold text-pink-500 dark:text-pink-400 mb-4">{portfolioData.title}</h2>
                     <p className="text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl text-justify">{portfolioData.summary}</p>
                 </div>
+                {/* <div className="weather">
+                    <Weather/>
+                </div> */}
             </div>
         </section>
+
+        {/* <Section id="butterfly" title="Butterflies" icon={<LaptopIcon className="text-pink-500 dark:text-pink-400" />}> */}
+            <Butterfly/>
+        {/* </Section> */}
 
         {/* Skills */}
         <Section id="skills" title="Skills" icon={<LaptopIcon className="text-pink-500 dark:text-pink-400" />}>

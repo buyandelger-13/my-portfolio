@@ -1,0 +1,44 @@
+/* --- CHANGED: Updated styles for a dark theme --- */
+.butterfly-container {
+  position: relative;
+  width: 100%;
+  height: 30vh; /* Adjust height as needed */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e2e8f0; /* Light text color for contrast */
+}
+
+/* Styles for the centered text content */
+.content {
+  text-align: center;
+  z-index: 10; /* Ensures text is above the butterflies */
+  position: relative;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.content p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: #a0aec0; /* A slightly dimmer color for the subtitle */
+}
+
+/* Butterfly styles from your original implementation */
+.butterfly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; /* Make butterflies non-interactive */
+}
+
+.butterfly-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}

@@ -21,7 +21,7 @@
   }
 }
 
-.summary {
+.weather {
   animation: slide-right-in 1000ms;
   animation-timing-function: linear;
 }
